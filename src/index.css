@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Porkys';
-  src: url('./assets/fonts/PORKYS_.TTF') format('truetype');
+  font-family: 'Porkh';
+  src: url('./assets/fonts/PORKH___.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Porkh';
-  src: url('./assets/fonts/PORKH___.TTF') format('truetype');
+  font-family: 'Hind';
+  src: url('./assets/fonts/Hind-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -31,4 +31,8 @@ body {
 
 .icon {
   @apply text-pink-300;
+}
+
+.hover-border:hover {
+  border-color: #fe671e;
 }

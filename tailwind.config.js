@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        main: ['Porkys', 'sans-serif'],
-        second: ['Porkh', 'sans-serif'],
+        main: ['Porkh', 'sans-serif'],
+        second: ['hind', 'sans-serif'],
       },
     },
   },
