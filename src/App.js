@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Error from './components/Error';
 import Home from './components/Home/';
+import Footer from './components/Footer';
 
 import './index.css';
 
@@ -16,7 +17,7 @@ function App() {
           <Route path="*" element={<Error />} />
         </Routes>
       </main>
-      {/*<Footer />*/}
+      <Footer />
     </BrowserRouter>
   );
 }

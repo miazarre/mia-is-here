@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <>
       <div className="flex-1">
-        <h2 className="m-10 font-main text-4xl tracking-widest text-stone-950 hover:animate-bounce">
+        <h2 className="mt-10 font-main text-4xl tracking-widest text-stone-950 hover:animate-bounce">
           Projects
         </h2>
         <div className="mt-10 flex flex-wrap items-center sm:flex-row sm:items-start">
