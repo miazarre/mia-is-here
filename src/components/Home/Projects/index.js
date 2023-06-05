@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <>
       <div className="flex-1">
-        <h2 className="mt-10 font-main text-4xl tracking-widest text-stone-950 hover:animate-bounce">
+        <h2 className="mt-10 font-main text-4xl tracking-widest text-stone-950 dark:text-stone-200 hover:animate-bounce">
           Projects
         </h2>
         <div className="mt-10 flex flex-wrap items-center sm:flex-row sm:items-start">
@@ -16,10 +16,10 @@ const Projects = () => {
             <img
               src={intheMood}
               alt="In the Mood for Website"
-              className="w-3/4 sm:w-3/6 border-8 border-teal-300 rounded-md transition-transform duration-300 ease-in-out transform-gpu hover:scale-125 hover-border"
+              className="w-3/4 sm:w-3/6 border-8 border-cyan-200 rounded-md transition-transform duration-300 ease-in-out transform-gpu hover:scale-125 hover-border"
             />
           </a>
-          <p className="pt-5 font-second text-stone-95">
+          <p className="pt-5 font-second text-stone-950 dark:text-stone-200">
             A website suggesting films and series to suit our moods
           </p>
         </div>

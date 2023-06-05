@@ -12,7 +12,7 @@ const Error = () => {
       </Helmet>
       <div className="flex flex-col items-center justify-center">
         <Link to="/" className="mt-40">
-          <h2 className="text-center font-main text-7xl sm:text-7xl font-extrabold uppercase text-sky-200 hover:text-yellow-300 tracking-widest">
+          <h2 className="text-center font-main text-7xl sm:text-7xl font-extrabold uppercase text-sky-600 dark:text-sky-200 hover:text-yellow-300 tracking-widest">
             There's nothing to see here!
           </h2>
         </Link>
