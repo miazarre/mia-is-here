@@ -4,10 +4,10 @@ const Projects = () => {
   return (
     <>
       <div className="flex-1">
-        <h2 className="mt-10 font-main text-4xl tracking-widest text-stone-950 dark:text-stone-200 hover:animate-bounce">
+        <h2 className="mt-10 ml-10 font-main text-4xl tracking-widest text-stone-950 dark:text-stone-200 hover:animate-bounce">
           Projects
         </h2>
-        <div className="mt-10 flex flex-wrap items-center sm:flex-row sm:items-start">
+        <div className="mt-10 ml-5 flex flex-wrap items-center sm:flex-row sm:items-start">
           <a
             href="https://inthemoodfor.netlify.app/"
             target="_blank"
