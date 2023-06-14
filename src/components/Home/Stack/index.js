@@ -7,11 +7,11 @@ const Stack = () => {
         </h2>
         <div className="font-second text-stone-950 dark:text-stone-200">
           <div className="ml-10 grid grid-cols-1 md:grid-cols-4">
-            <h3 className="font-bold">Languages</h3>
+            <h3 className="font-bold text-xl">Languages</h3>
             <ul className="md:col-span-1 space-y-1">
               <li>
                 <h4 className="mb-2 font-bold">JavaScript</h4>
-                <p>The first, and highly versatile </p>
+                <p className="text-s">The first, and highly versatile </p>
               </li>
               <li>
                 <h4 className="mb-2 font-bold">& more soon</h4>
@@ -19,7 +19,7 @@ const Stack = () => {
             </ul>
           </div>
           <div className="mt-5 ml-10 grid grid-cols-1 md:grid-cols-4 font-second text-stone-950 dark:text-stone-200">
-            <h3 className="font-bold">Libraries & Frameworks</h3>
+            <h3 className="font-bold text-xl">Libraries & Frameworks</h3>
             <ul className="md:col-span-1 space-y-1 font-bold mb-2">
               <li>
                 <h4>React</h4>
@@ -36,7 +36,7 @@ const Stack = () => {
             </ul>
           </div>
           <div className="mt-5 ml-10 grid grid-cols-1 md:grid-cols-4 font-second text-stone-950 dark:text-stone-200">
-            <h3 className="font-bold">Misc</h3>
+            <h3 className="font-bold text-xl">Misc</h3>
             <ul className="md:col-span-1 space-y-1 font-bold mb-2">
               <li>
                 <h4>VSCode</h4>
