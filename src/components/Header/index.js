@@ -6,7 +6,7 @@ const Header = () => {
     <div className="m-10 sm:mt-10 md:mt-30 pt-5 font-main text-4xl sm:text-5xl md:text-7xl tracking-widest">
       <h1 className="text-sky-600">Mia Garcia</h1>
       <p className="flex items-center pt-5 text-stone-950 dark:text-stone-200">
-        Full Stack Web Developer
+        Problem Solver
         <span style={{ display: 'inline-block' }}>
           <img src={smiley} alt="smiley" className="w-20 px-3 animate-bounce" />
         </span>
